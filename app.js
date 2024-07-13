@@ -1,11 +1,12 @@
 document.getElementById('texto').addEventListener('input', function (e) {
     const textarea = e.target;
-    const validText = textarea.value.replace(/[^a-z\s]/g, '');
-    if (textarea.value !== validText) {
+    const originalValue = textarea.value;
+    const validText = originalValue.replace(/[^a-z\s]/g, '');
+    if (originalValue !== validText) {
+        alert('Apenas letras minúsculas e sem acento são permitidas.');
         textarea.value = validText;
     }
 });
-
 function criptografarTexto() {
     var texto = document.getElementById('texto').value;
     var textoCriptografado = texto.replace(/e/g, 'enter')
