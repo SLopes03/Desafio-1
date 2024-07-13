@@ -1,3 +1,11 @@
+document.getElementById('texto').addEventListener('input', function (e) {
+    const textarea = e.target;
+    const validText = textarea.value.replace(/[^a-z\s]/g, '');
+    if (textarea.value !== validText) {
+        textarea.value = validText;
+    }
+});
+
 function criptografarTexto() {
     var texto = document.getElementById('texto').value;
     var textoCriptografado = texto.replace(/e/g, 'enter')
