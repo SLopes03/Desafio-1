@@ -36,6 +36,7 @@ body{
     flex-direction: column ;
     height: 100vh;
     justify-content: space-between; 
+    margin-left: 15% ;
 }
 .area__mensagem__texto{
     width: 100%;
@@ -52,32 +53,31 @@ body{
     overflow: hidden;
     box-sizing: border-box;
     margin-top: -15%;
-    margin-left: 15% ;
+    
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .area__mensagem__texto::placeholder{
     color: var(--cor-secundaria);
 }
-.condicao{
+.area__condicao{
     display: flex;
     align-items: baseline;
     font-family: var(--fonte-principal);
     font-size: 12px;
     font-weight: 400;
     color: var(--cor-quarternaria);
-    margin-left: 15%; 
+    
 }
-.botoes{
+.area__botoes{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 24px;
-    margin-left: 15%;
     padding-top: 2%;
     margin-bottom: -45%;
 }
-.botoes__cripto{
+.area__botoes__cripto{
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -93,7 +93,7 @@ body{
     font-family: var(--fonte-principal);
     padding: 24px 0;
 }
-.botoes__descripto{
+.area__botoes__descripto{
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -157,7 +157,7 @@ body{
 .area__resultado__result{
     flex: 1;
     display: flex;
-    justify-content:first baseline;
+    justify-content:space-between;
     align-items: center;
     flex-direction: column;
     border: 2px solid var(--cor-terciaria);
@@ -171,6 +171,24 @@ body{
     margin-right: -2%;
     padding: 32px;
 }
+.area__copiar{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    border: 2px solid var(--cor-secundaria);
+    width: 50%;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
+    font-family: var(--fonte-principal);
+    padding: 24px 0;
+   
+}
+
 .rodape{
     font-family: var(--fonte-principal);
     font-size: 12PX;

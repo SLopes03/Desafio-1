@@ -16,13 +16,13 @@
                 <textarea id="texto"class="area__mensagem__texto" placeholder="digite seu texto"></textarea>
                 
                 <div>
-                <div class="condicao">
+                <div class="area__condicao">
                     <img src="./img/exclamacao.png">
                     <h2>Apenas letras minúsculas e sem acento</h2>
                 </div>
-                <div class="botoes">
-                    <a href="#" class="botoes__cripto" onclick="criptografarTexto()">Criptografar</a>
-                    <a href="#" class="botoes__descripto" onclick="descriptografarTexto()">Descriptografar</a>
+                <div class="area__botoes">
+                    <a href="#" class="area__botoes__cripto" onclick="criptografarTexto()">Criptografar</a>
+                    <a href="#" class="area__botoes__descripto" onclick="descriptografarTexto()">Descriptografar</a>
                 </div>
             </div>
 
@@ -30,11 +30,10 @@
         <section class="area__resultado__result">
             
             <p class="area__resultado__texto" id="resultado"></p>
+            <a class="area__copiar" href="#" class="botoes__copiar" onclick="copiarTexto()">Copiar Texto</a>
           
         </section>
-        <section class="area__copiar">
-            <a href="#" class="botoes__copiar" onclick="copiarTexto()">Copiar Texto</a>
-        </section>
+        
 
 
     </main>
