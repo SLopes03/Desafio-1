@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --cor-primaria: #d8dfe8;
+    --cor-secundaria: #0a3871;
+    --cor-terciaria: #ffffff;
+    --cor-quarternaria: #495057;
+    --cor-aviso: #343A40;
+    --cor-aviso2: #495057;
+    --fonte-principal: 'Inter', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+.logo{
+    width: 7.5rem;
+    height: 3rem;
+    padding: 2%
+}
+.area{
+    padding: 5% 5% 5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.area__mensagem{
+    flex: 2;
+    display: flex;
+    flex-direction: column ;
+    height: 100vh;
+    justify-content: space-between; 
+}
+.area__mensagem__texto{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-family: var(--fonte-principal);
+    font-size: 32px;
+    color: var(--cor-secundaria);
+    font-weight: 400;
+    background-color: var(--cor-primaria);
+    outline: none;
+    border: none;
+    resize: none;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: -15%;
+    margin-left: 15% ;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.area__mensagem__texto::placeholder{
+    color: var(--cor-secundaria);
+}
+.condicao{
+    display: flex;
+    align-items: baseline;
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--cor-quarternaria);
+    margin-left: 15%; 
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-left: 15%;
+    padding-top: 2%;
+    margin-bottom: -45%;
+}
+.botoes__cripto{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    border: 2px solid var(--cor-secundaria);
+    width: 50%;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    background-color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    padding: 24px 0;
+}
+.botoes__descripto{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    border: 2px solid var(--cor-secundaria);
+    width: 50%;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    font-family: var(--fonte-principal);
+    padding: 24px 0;
+}
+.area__resultado{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid var(--cor-terciaria);
+    background-color: var(--cor-terciaria);
+    border-radius: 24px;
+    width: 400px;
+    height: 944px;
+    flex-shrink: 0;
+    margin-top: -10%;
+    margin-bottom: -2%;
+    margin-right: -2%;
+    padding: 32px;
+}
+.area__resultado__texto{
+    color: var(--cor-aviso2);
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.25rem */
+}
+.aviso_1{
+    color: var(--cor-aviso);
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    padding: 32px;
+}
+.aviso_2{
+    color: var(--cor-aviso2);
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 32px;
+}
+.area__resultado__result{
+    flex: 1;
+    display: flex;
+    justify-content:first baseline;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid var(--cor-terciaria);
+    background-color: var(--cor-terciaria);
+    border-radius: 24px;
+    width: 400px;
+    height: 944px;
+    flex-shrink: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: -2%;
+    padding: 32px;
+}
+.rodape{
+    font-family: var(--fonte-principal);
+    font-size: 12PX;
+    text-align: center;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+}
