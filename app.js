@@ -25,4 +25,12 @@ function mostrarTexto() {
     document.getElementById('resultado').textContent = texto;
 }
 
-
+// Função para copiar o texto para o clipboard
+function copiarTexto() {
+    var texto = document.getElementById('resultado').textContent;
+    navigator.clipboard.writeText(texto).then(function() {
+        alert('Texto copiado para o clipboard!');
+    }).catch(function(error) {
+        alert('Falha ao copiar texto: ', error);
+    });
+}
