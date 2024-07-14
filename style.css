@@ -188,11 +188,51 @@ body{
     font-weight: 400;
     color: var(--cor-secundaria);
 }
+
 @media (max-width: 768px) {
-    .area{
+    .logo{
+        padding: 5%;
+    }
+    .area {
         flex-direction: column;
-        justify-content:space-between;
-         padding: 5%;  
+        justify-content:flex-start;
+        height: 100vh;
+        padding: 5%;
+        margin-top: 10%;
+        gap: 20px;
     }
 
+    .area__mensagem {
+        width: 100%;
+        margin-left: 0;
+        padding: 2%;
+        height: auto;
+    }
+
+    .area__condicao {
+        flex-direction: row;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .area__botoes {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .area__botoes__cripto,
+    .area__botoes__descripto {
+        width: 45%;
+    }
+
+    .area__resultado,
+    .area__resultado__result {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px;
+    }
 }
