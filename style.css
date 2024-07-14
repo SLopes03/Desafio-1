@@ -126,7 +126,7 @@ body{
     flex-shrink: 0;
     margin-top: -10%;
     margin-bottom: -2%;
-    margin-right: -2%;
+    margin-right: 2%;
     padding: 32px;
 }
 .area__resultado__result{
@@ -230,9 +230,57 @@ body{
 
     .area__resultado,
     .area__resultado__result {
-        width: 100%;
+        width: 90%;
         height: auto;
         margin: 0;
-        padding: 20px;
+        padding: 5%;
+    }
+}
+@media (max-width: 375px) {
+    .logo{
+        padding: 5%;
+    }
+    .area {
+        flex-direction: column;
+        justify-content:flex-start;
+        height: 100vh;
+        padding: 5%;
+        margin-top: 10%;
+        gap: 20px;
+    }
+
+    .area__mensagem {
+        width: 100%;
+        margin-left: 0;
+        padding: 2%;
+        height: auto;
+    }
+
+    .area__condicao {
+        flex-direction: row;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .area__botoes {
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .area__botoes__cripto,
+    .area__botoes__descripto {
+        width: 100%;
+    }
+
+    .area__resultado,
+    .area__resultado__result {
+        width: 90%;
+        height: auto;
+        margin: 0;
+        padding: 5%;
+    
     }
 }
