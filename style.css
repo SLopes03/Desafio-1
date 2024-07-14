@@ -14,9 +14,10 @@
     padding: 0;
 }
 body{
-    
+    box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
     
 }
 .logo{
@@ -25,9 +26,9 @@ body{
     padding: 2%
 }
 .area{
-    padding: 5% 5% 5% 5%;
+    padding: 5%;
     display: flex;
-    align-items: center;
+    align-items:flex-start;
     justify-content: space-between;
     gap: 40px;
 }
@@ -37,13 +38,13 @@ body{
     flex-direction: column ;
     height: 100vh;
     justify-content: space-between; 
-    margin-left: 15% ;
+    margin-left: 10% ;
+    padding: 2%; 
 }
 .area__mensagem__texto{
     width: 100%;
     height: 100%;
-    padding: 10px;
-    font-family: var(--fonte-principal);
+    padding: 2%;
     font-size: 32px;
     color: var(--cor-secundaria);
     font-weight: 400;
@@ -54,7 +55,6 @@ body{
     overflow: hidden;
     box-sizing: border-box;
     margin-top: -15%;
-    
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .area__mensagem__texto::placeholder{
@@ -67,6 +67,7 @@ body{
     font-size: 12px;
     font-weight: 400;
     color: var(--cor-quarternaria);
+    margin-bottom: -40%;
     
 }
 .area__botoes{
@@ -110,7 +111,8 @@ body{
     font-family: var(--fonte-principal);
     padding: 24px 0;
 }
-.area__resultado{
+.area__resultado,
+.area__resultado__result{
     flex: 1;
     display: flex;
     justify-content: center;
@@ -127,6 +129,11 @@ body{
     margin-right: -2%;
     padding: 32px;
 }
+.area__resultado__result{
+    justify-content:space-between;
+   
+}
+
 .area__resultado__texto{
     color: var(--cor-aviso2);
     font-family: var(--fonte-principal);
@@ -155,23 +162,7 @@ body{
     line-height: 150%;
     padding: 32px;
 }
-.area__resultado__result{
-    flex: 1;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    flex-direction: column;
-    border: 2px solid var(--cor-terciaria);
-    background-color: var(--cor-terciaria);
-    border-radius: 24px;
-    width: 400px;
-    height: 944px;
-    flex-shrink: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: -2%;
-    padding: 32px;
-}
+
 .area__copiar{
     display: flex;
     justify-content: center;
@@ -196,4 +187,12 @@ body{
     text-align: center;
     font-weight: 400;
     color: var(--cor-secundaria);
+}
+@media (max-width: 768px) {
+    .area{
+        flex-direction: column;
+        justify-content:space-between;
+         padding: 5%;  
+    }
+
 }
