@@ -1,7 +1,7 @@
 document.getElementById('texto').addEventListener('input', function (e) {
     const textarea = e.target;
     const originalValue = textarea.value;
-    const validText = originalValue.replace(/[^a-z\s]/g, '');
+    const validText = originalValue.replace(/[^a-z\s.,!?]/g, '');
     if (originalValue !== validText) {
         alert('Apenas letras minúsculas e sem acento são permitidas.');
         textarea.value = validText;
