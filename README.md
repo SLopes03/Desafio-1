@@ -27,16 +27,16 @@ Nada complicado! Basta um navegador web compatível com HTML5. 😉
 
 Confira abaixo como nossa aplicação fica em diferentes dispositivos. As imagens foram ajustadas para que você possa vê-las claramente!
 
-<img src="https://github.com/user-attachments/assets/ffb4b914-d067-434f-8f56-1f0eeb715acf" alt="1_index pc" width="300px">
+<img src="https://github.com/user-attachments/assets/24861343-a686-48db-aae5-5108d166a460" alt="1_index pc" width="300px">
 
-<img src="https://github.com/user-attachments/assets/f2b4b081-3d42-4cc3-97cc-a9e819108059" alt="2_result pc" width="300px">
+<img src="https://github.com/user-attachments/assets/0f33ff27-05b1-4b9e-af59-cb80c78b5fae" alt="2_result pc" width="300px">
 
 <img src="https://github.com/user-attachments/assets/d14ffc96-d2b6-434c-9181-df6f9222b08c" alt="3_index cel" width="300px">
 
-<img src="https://github.com/user-attachments/assets/5875eca7-834f-44fc-a869-daf3a7c1a561" alt="4_result cel" width="300px">
+<img src="https://github.com/user-attachments/assets/7ffeea55-c8fc-41e6-afed-d12607cdd621" alt="4_result cel" width="300px">
 
 <img src="https://github.com/user-attachments/assets/c3be3519-a408-44bd-8de0-9eacdba9f597" alt="5_index tab" width="300px">
 
-<img src="https://github.com/user-attachments/assets/c25d1e4b-3bd7-43af-818f-75e107a915df" alt="6_result tab" width="300px">
+<img src="https://github.com/user-attachments/assets/85de5a1f-70a1-4380-8ccd-4431b24e26c2" alt="6_result tab" width="300px">
 
 Esperamos que você se divirta e proteja seus segredos com estilo! 💫
