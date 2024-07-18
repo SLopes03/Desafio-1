@@ -190,7 +190,7 @@ main{
     color: var(--cor-secundaria);
     background-color: var(--cor-terciaria);
     font-family: var(--fonte-principal);
-    padding: 2%;
+    padding: 24px 0;
     margin-top: 100%;
    
 }
@@ -251,7 +251,7 @@ main{
         padding: 5%;
     }
     .area__copiar{
-        margin-top: 30%;
+        margin-top: 0%;
     }
 }
 @media (max-width: 460px) {
