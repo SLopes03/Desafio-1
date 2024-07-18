@@ -17,7 +17,7 @@ Nada complicado! Basta um navegador web compatível com HTML5. 😉
 1. Clone este repositório mágico:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/SLopes03/Desafio-1/tree/master
 
 2. Abra o arquivo index.html no seu navegador favorito.
 
